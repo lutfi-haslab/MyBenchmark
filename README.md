@@ -27,10 +27,19 @@ Multi-language performance benchmark comparing **Go**, **Rust**, **Zig**, **BunJ
 ## Run
 
 ```bash
+# Run all benchmarks
 ./run.sh
-```
 
-The script auto-detects installed languages and runs available benchmarks. Results are saved to `results/`.
+# Or use Make
+make run          # Run all benchmarks
+make go           # Run Go only
+make rust         # Run Rust only
+make zig          # Run Zig only
+make bun          # Run BunJS only
+make php          # Run PHP only
+make all          # Run all individually
+make clean        # Clean build artifacts and results
+```
 
 ## Run Individual Benchmarks
 
