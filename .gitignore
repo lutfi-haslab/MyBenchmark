@@ -1,0 +1,5 @@
+results/
+zig-cache/
+target/
+node_modules/
+.DS_Store
