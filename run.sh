@@ -41,7 +41,7 @@ else
 fi
 
 if command -v zig &>/dev/null; then
-    run_benchmark "Zig" "cd $SCRIPT_DIR/zig && zig run src/main.zig -O ReleaseSafe"
+    run_benchmark "Zig" "cd $SCRIPT_DIR/zig && zig run src/main.zig -O ReleaseFast -mcpu=native"
 else
     echo "Zig not found, skipping..." | tee -a "$RESULTS_FILE"
     echo ""

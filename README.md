@@ -16,11 +16,11 @@ Multi-language performance benchmark comparing **Go**, **Rust**, **Zig**, **BunJ
 
 | Language | Version | Fibonacci(42) | Matrix Multiply (500x500) | Prime Count (10M) |
 |---|---|---|---|---|
-| **Rust** | 1.84.1 | 1,320ms | 200ms | 45ms |
-| **Go** | 1.24.0 | 1,332ms | 230ms | 38ms |
-| **Zig** | 0.16.0 | 1,521ms | 230ms | 43ms |
-| **BunJS** | 1.3.11 | 1,854ms | 436ms | 56ms |
-| **PHP** | 8.4.7 | 33,464ms | 4,648ms | 1,400ms |
+| **Zig** | 0.16.0 | 1,223ms | 63ms | 24ms |
+| **Rust** | 1.84.1 | 1,266ms | 193ms | 45ms |
+| **Go** | 1.24.0 | 1,338ms | 239ms | 39ms |
+| **BunJS** | 1.3.11 | 1,857ms | 431ms | 55ms |
+| **PHP** | 8.4.7 | 32,929ms | 4,729ms | 1,304ms |
 
 > Lower is better. Results may vary between runs.
 
